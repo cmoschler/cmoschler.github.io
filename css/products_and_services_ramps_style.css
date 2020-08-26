@@ -1,0 +1,409 @@
+html {
+  background-image: url("../images/skybackground2.jpg");
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  font-size: 100%;
+  overflow:hidden;
+}
+body {
+	margin:0px;
+	padding:0px;
+	overflow: scroll;
+	height:100%;
+}
+.logo {
+	width: 400px;
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}
+/*navigation bar*/
+header nav{
+	width:860px;
+	margin:0 auto;
+	margin-top: 95px;
+	padding: 0px;
+	text-decoration: none;
+}
+header nav li{
+	margin:30px;
+	border-bottom: 3px solid rgba(25, 44, 86, 0);
+	padding-bottom: 20px;
+	transition: border-bottom 0.5s;
+	display:inline;
+}
+header ul a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 18pt;
+	color: #192C56;
+	border-bottom: 3px solid rgba(25, 44, 86, 0);
+	padding-bottom: 20px;
+	transition: border-bottom 0.5s;
+}
+header ul a:hover{
+	border-bottom: 3px solid rgba(25, 44, 86, 1.0);
+	padding-bottom: 20px;
+}
+header ul a:active{
+	color: #1f6db6;
+	border-bottom: 3px solid #1f6db6;
+}
+
+/*SECTION CONTROLS*/
+#wrapper{
+	margin:0 auto;
+	margin-top:150px;
+	padding:0px;
+}
+.section{
+	width:850px;
+	height:550px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.textwrapper{
+	display:inline-block;
+	width:425px;
+	font-family: 'Lato', sans-serif;
+	color: #192C56;
+	font-size:12pt;
+}
+.imagewrapper{
+	width:385px;
+	float:right;
+}
+/*IMAGE VIEWER*/
+.imgStyle{
+	height:68px;
+	width:68px;
+	border:3px solid rgba(25, 44, 86, 0);
+}
+#myDiv1{
+	width:390px;
+}
+#myDiv2{
+	width:390px;
+}
+#myDiv3{
+	width:390px;
+}
+/*text*/
+.header{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #192C56;
+	font-size:16pt;
+}
+hr{
+	border:none;
+	height:1px;
+	color: #1f6db6;
+	background-color:#1f6db6;
+}
+/*footer section*/
+#foot{
+	width: 100%;
+	height: 200px;
+	background-color: #192c56;
+	overflow-y:hidden;
+	margin-top:200px;
+}
+.footercontainer{
+	width:860px;
+	margin:0 auto;
+}
+.contact{
+	float:left;
+	
+}
+.products{
+	float: right;
+	margin-right:50px;
+}
+.about{
+	float:right;
+	margin-right:50px;
+}
+.footerheader{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 16px;
+}
+.footertext{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 16px;
+	text-decoration:none;
+}
+.footertext:hover{
+	text-decoration: underline;
+}
+.footericon{
+	display:block;
+}
+.footertextemail{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 16px;
+	margin-top:-63px;
+	margin-left: 45px;
+}
+.footertextphone{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 16px;
+	margin-left:45px;
+}
+.topbutton{
+	display:block;
+	float:right;
+	margin-top:130px;
+}
+@media(max-width: 768px){
+	header nav li{
+		margin: 15px;
+	}
+	.section{
+		width:700px;
+	}
+	.textwrapper{
+		width:300px;
+	}
+	.imagewrapper{
+		width:385px;
+	}
+	/*IMAGE VIEWER*/
+	.imgStyle{
+		height:68px;
+		width:68px;
+		border:3px solid rgba(25, 44, 86, 0);
+	}
+	#myDiv1{
+		width:390px;
+	}
+	#myDiv2{
+		width:390px;
+	}
+	#myDiv3{
+		width:390px;
+	}
+	#foot {
+		width: 100%;
+		height: 200px;
+		background-color: #192c56;
+		overflow-y:hidden;
+		margin-top: 200px;
+	}
+	.footercontainer{
+		width:700px;
+		height:100%;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 767px){
+	.logo {
+		width: 350px;
+		display: block;
+		margin:0 auto;
+		margin-top: 40px;
+		overflow-y:hidden;
+	}
+	.burger{
+		display:block;
+		height:40px;
+		width:100%;
+		background:url(../images/burgernav.png) no-repeat 98% center;
+		background-color: #192C56;
+		cursor: pointer;
+	}
+	header nav{
+		width:100%;
+		margin:0 auto;
+		margin-top: 50px;
+		padding: 0px;
+		text-decoration: none;
+	}
+	header nav ul{
+		padding:0px;
+		background-color: #213b74;
+		margin:0px;
+		text-align:center;
+		overflow:hidden;
+		height:0;
+	}
+	header nav ul.open{
+		height:auto;
+	}
+	header nav ul li{
+		margin:0px;
+		padding:5px;
+		border-bottom:4px solid #192C56;
+		transition: none;
+		display:block;
+		
+	}
+	header nav ul li a{
+		padding:0px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 13pt;
+		color: #ffffff;
+		transition: none;
+		
+	}
+	#wrapper{
+		margin-top:50px;
+	}
+	.section{
+		width:350px;
+		height:1120px;
+		margin:0 auto;
+	}
+	.textwrapper{
+		width:350px;
+		float:none;
+		margin:0 auto;
+	}
+	.imagewrapper{
+		width:345px;
+		float:none;
+		margin:0 auto;
+	}
+	.imgStyle{
+		height:77px;
+		width:77px;
+		border:3px solid rgba(25, 44, 86, 0);
+	}
+	#mainImage1{
+		width:340px;
+		height:340px;
+	}
+	#mainImage2{
+		width:340px;
+		height:340px;
+		
+	}
+	#mainImage3{
+		width:340px;
+		height:340px;
+	}
+	#myDiv1{
+		width:350px;
+	}
+	#myDiv2{
+		width:350px;
+	}
+	#myDiv3{
+		width:350px;
+	}
+	#foot {
+		width: 100%;
+		height: 50px;
+		background-color: #192c56;
+		overflow-y:hidden;
+		margin-top:0px;
+	}
+	.footercontainer{
+		width:350px;
+		height:100%;
+		margin: 0 auto;
+	}
+		.contact{
+	display:none;
+	}
+	.products{
+		display:none;
+	}
+	.about{
+		display:none;
+	}
+	.footerheader{
+		display:none;
+	}
+	.footertext{
+		display:none;
+	}
+	.footericon{
+		display:none;
+	}
+	.footertextemail{
+		display:none;
+	}
+	.footertextphone{
+		display: none;
+	}
+	.topbutton{
+		display: none;
+	}
+}
+@media(max-width: 320px){
+	.logo {
+		width: 300px;
+	}
+	#wrapper{
+		width:270px;
+	}
+	.section{
+		width:270px;
+		height:1120px;
+		margin:0 auto;
+	}
+	.textwrapper{
+		width:270px;
+		margin:0 auto;
+	}
+	.imagewrapper{
+		width:265px;
+		margin:0 auto;
+	}
+	.imgStyle{
+		height:78px;
+		width:78px;
+		border:3px solid rgba(25, 44, 86, 0);
+	}
+	#mainImage1{
+		width:260px;
+		height:260px;
+	}
+	#mainImage2{
+		width:260px;
+		height:260px;
+		
+	}
+	#mainImage3{
+		width:260px;
+		height:260px;
+	}
+	#myDiv1{
+		width:270px;
+	}
+	#myDiv2{
+		width:270px;
+	}
+	#myDiv3{
+		width:270px;
+	}
+	#foot {
+		width: 100%;
+		height: 50px;
+		background-color: #192c56;
+		overflow-y:hidden;
+		margin-top:0px;
+	}
+	.footercontainer{
+		width:900px;
+		height:100%;
+		margin: 0 auto;
+	}
+}
+
+ 

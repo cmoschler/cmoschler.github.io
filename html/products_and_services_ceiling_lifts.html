@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Products&Services | DP Stairlift</title>
+		<meta charset="uft-8">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" href="../css/products_and_services_ceiling_lifts_style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:400,700" rel="stylesheet">
+</head>
+<body>
+	<a name="top"></a>
+	<header>
+			<a href="../index.html"><img class="logo" src="../images/mainlogo.png" /></a>
+					
+			<nav>
+				<a class="burger"></a>
+				<ul>
+					<li><a href="../html/about_us_page_1.html">About Us</a></li>
+					<li><a href="../html/products_and_services_home.html">Products & Services</a></li>
+					<li><a href="../html/testimonials.html">Testimonials</a></li>
+					<li><a href="../html/contact.html">Contact</a></li>
+				</ul>
+			</nav>
+	</header>
+<div id="wrapper">
+	<section class="section">
+		<div class="textwrapper">
+			<span class="header">Portable Ceiling Lifts</span><hr>
+			The Prism portable ceiling lifts that we provide are built to be easily used by a single caregiver. Measurements based off of your needs are taken, and a track cut to the specific length needed
+			is secured to the ceiling. The track is then anchored into the beams in the ceiling, which we reinforce as necessary. The motorized lift and sling is then hung from the track on rollers, allowing the 
+			cargiver to move and transition the user to either their destination or seperate tracks with minimal effort.
+			<ul>
+				<li>Comes in several weight capacities: 300 lbs, 440 lbs, and 600 lbs</li>
+				<li>Simple maintence</li>
+				<li>Small and compact</li>
+				<li>Lightest portable lift available</li>
+				<li>Compatible with existing track systems</li>
+				<li>Most affordable ceiling lift available</li>
+			</ul><hr>
+		</div>
+	
+		<div class="imagewrapper">
+			<img id="mainImage1" height="380px" width="380px"
+				src="../images/straight1.jpg" style="border:3px solid rgba(25, 44, 86, 0);"/>
+			<br />
+				<div id="myDiv1" onclick="changeImage1(event)">
+					<img class="imgStyle" src="../images/straight1.jpg" />
+					<img class="imgStyle" src="../images/straight3.jpg" />
+					<img class="imgStyle" src="../images/straight4.jpg" />
+					<img class="imgStyle" src="../images/straight5.jpg" />
+					<img class="imgStyle" src="../images/straight6.jpg" />
+					<img class="imgStyle" src="../images/straight7.jpg" />
+				</div>
+		</div>
+	</section>
+	
+	
+</div>
+	
+	<script type="text/javascript">
+		var images = document.getElementById("myDiv1").getElementsByTagName("img");
+		
+		for (var i=0; i < images.length; i++){
+			images[i].onmouseover = function () {
+				this.style.cursor = 'hand';
+				this.style.borderColor = '#1f6db6';
+			}
+			images[i].onmouseout = function () {
+				this.style.cursor = 'pointer';
+				this.style.borderColor = 'rgba(25, 44, 86, 0)';
+			}
+		}
+		
+		function changeImage1(event) {
+			event = event || window.event;
+			var targetElement = event.target || event.srcElement;
+			if (targetElement.tagName == "IMG"){
+			document.getElementById("mainImage1").src = targetElement.getAttribute("src");
+			}
+		}
+	</script>
+
+	<div id="foot">
+				<div class="footercontainer">	
+					<div class="contact">
+						
+						<h3 class="footerheader">Contact Us</h3>
+						<a href="../index.html"><img class="footericon" src="../images/email.png"/></a>
+						<a href="../index.html"><img class="footericon" src="../images/phone.png"/></a>
+						<h3 class="footertextemail">stairsbgone@aol.com</h3>
+						<h3 class="footertextphone">804-763-1100</h3>
+					</div>
+					<a href="#top"><img class="topbutton" src="../images/back_to_top_button.png"/></a>
+					<div class="about">
+						<h3 class="footerheader">Company</h3>
+						<a class="footertext" href="../html/about_us_page_1.html">About Us</a></br>
+						<a class="footertext" href="../html/testimonials.html">Testimonials</a></br>
+						<a class="footertext" href="../html/contact.html">Contact</a></br>
+					</div>
+					
+					<div class="products">
+						<h3 class="footerheader">Products & Services</h3>
+						<a class="footertext" href="../html/products_and_services_straight_stairlifts.html">Straight Stairlifts</a></br>
+						<a class="footertext" href="../html/products_and_services_curved_stairlifts.html">Curved Stairlifts</a></br>
+						<a class="footertext" href="../html/products_and_services_vehicle_scooter_lifts.html">Vehicle Scooter Lifts</a></br>
+						<a class="footertext" href="../html/products_and_services_grab_bars.html">Grab Bars</a></br>
+						<a class="footertext" href="../html/products_and_services_ramps.html">Ramps</a></br>
+						<a class="footertext" href="../html/products_and_services_ceiling_lifts.html">Ceiling Lifts</a>
+					</div>
+					
+				</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="../javascript/menu.js"></script>
+	
+	</body>

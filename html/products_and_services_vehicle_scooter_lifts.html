@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Products&Services | DP Stairlift</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" href="../css/products_and_services_vehicle_scooter_lifts_style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:400,700" rel="stylesheet">
+</head>
+<body>
+	<a name="top"></a>
+	<header>
+			<a href="../index.html"><img class="logo" src="../images/mainlogo.png" /></a>
+					
+			<nav>
+				<a class="burger"></a>
+				<ul>
+					<li><a href="../html/about_us_page_1.html">About Us</a></li>
+					<li><a href="../html/products_and_services_home.html">Products & Services</a></li>
+					<li><a href="../html/testimonials.html">Testimonials</a></li>
+					<li><a href="../html/contact.html">Contact</a></li>
+				</ul>
+			</nav>
+	</header>
+<div id="wrapper">
+	<section class="section">
+		<div class="textwrapper">
+			<span class="header">Lift 'n' Go Electric Lift</span><hr>
+			WheelChair Carrier's Lift 'n' Go is the standard model of vehicle lift that we provide. This external lift is secured to the rear trailer hitch of your vehicle, and accommodates both power chairs or scooters. 
+			It is operated electrically via a switchbox, and automatically folds up into a stowaway position when not loaded.
+			<ul>
+				<li>Weighs 103 lbs</li>
+				<li>Holds up to 350 lbs</li>
+				<li>Platform dimensions are 28" x 48" to accomodate larger mobility devices</li>
+				<li>24" of possible ground clearance for smooth traveling</li>
+				<li>Includes 2 retractable ratchets for securing the mobility device</li>
+				<li>Can accommodate 1 1/4" or 2" square hitch receiver</li>
+			</ul><hr>
+		</div>
+	
+		<div class="imagewrapper">
+			<img id="mainImage1" height="380px" width="380px"
+				src="../images/vehicle1.jpg" style="border:3px solid rgba(25, 44, 86, 0);"/>
+			<br />
+				<div id="myDiv1" onclick="changeImage1(event)">
+					<img class="imgStyle" src="../images/vehicle1.jpg" />
+					<img class="imgStyle" src="../images/vehicle2.jpg" />
+					<img class="imgStyle" src="../images/vehicle3.jpg" />
+				</div>
+		</div>
+	</section>
+	<section class="section">
+		<div class="textwrapper">
+			<span class="header">Backpacker Plus</span><hr>
+			Pride Mobility's Backpacker Plus provides easy transportation, in addition to providing concealment and weather protection for scooters and power chairs. Installed primarily 
+			in minivans and full sized vans, these lifts are secured inside the trunk of the vehicle, and fold in and out to hold and store your mobility product within the 
+			confines of the vehicle.
+			<ul>
+				<li>Weighs 155 lbs</li>
+				<li>Holds up to 350 lbs</li>
+				<li>Utilizes an electric two button hand control for simple and reliable operation</li>
+				<li>Most applications do not require the removal of the 2nd row seating</li>
+				<li>Platform dimensions are 27" x 43" to accomodate larger mobility devices</li>
+				<li>Most applications do not require drilling or vehicle modification</li>
+			</ul><hr>
+		</div>
+	
+		<div class="imagewrapper">
+			<img id="mainImage2" height="380px" width="380px"
+				src="../images/backpacker2.png" style="border:3px solid rgba(25, 44, 86, 0);"/>
+			<br />
+				<div id="myDiv2" onclick="changeImage2(event)">
+					<img class="imgStyle" src="../images/backpacker2.png" />
+					<img class="imgStyle" src="../images/backpacker1.png" />
+					<img class="imgStyle" src="../images/backpacker3.png" />
+					<img class="imgStyle" src="../images/backpacker4.png" />
+					<img class="imgStyle" src="../images/backpacker5.png" />
+					<img class="imgStyle" src="../images/backpacker6.png" />
+				</div>
+		</div>
+	</section>
+</div>
+	
+	<script type="text/javascript">
+		var images = document.getElementById("myDiv1").getElementsByTagName("img");
+		
+		for (var i=0; i < images.length; i++){
+			images[i].onmouseover = function () {
+				this.style.cursor = 'hand';
+				this.style.borderColor = '#1f6db6';
+			}
+			images[i].onmouseout = function () {
+				this.style.cursor = 'pointer';
+				this.style.borderColor = 'rgba(25, 44, 86, 0)';
+			}
+		}
+		
+		function changeImage1(event) {
+			event = event || window.event;
+			var targetElement = event.target || event.srcElement;
+			if (targetElement.tagName == "IMG"){
+			document.getElementById("mainImage1").src = targetElement.getAttribute("src");
+			}
+		}
+	</script>
+	
+	<script type="text/javascript">
+		var images = document.getElementById("myDiv2").getElementsByTagName("img");
+		
+		for (var i=0; i < images.length; i++){
+			images[i].onmouseover = function () {
+				this.style.cursor = 'hand';
+				this.style.borderColor = '#1f6db6';
+			}
+			images[i].onmouseout = function () {
+				this.style.cursor = 'pointer';
+				this.style.borderColor = 'rgba(25, 44, 86, 0)';
+			}
+		}
+		
+		function changeImage2(event) {
+			event = event || window.event;
+			var targetElement = event.target || event.srcElement;
+			if (targetElement.tagName == "IMG"){
+			document.getElementById("mainImage2").src = targetElement.getAttribute("src");
+			}
+		}
+	</script>
+	<div id="foot">
+				<div class="footercontainer">	
+					<div class="contact">
+						
+						<h3 class="footerheader">Contact Us</h3>
+						<a href="../index.html"><img class="footericon" src="../images/email.png"/></a>
+						<a href="../index.html"><img class="footericon" src="../images/phone.png"/></a>
+						<h3 class="footertextemail">stairsbgone@aol.com</h3>
+						<h3 class="footertextphone">804-763-1100</h3>
+					</div>
+					<a href="#top"><img class="topbutton" src="../images/back_to_top_button.png"/></a>
+					<div class="about">
+						<h3 class="footerheader">Company</h3>
+						<a class="footertext" href="../html/about_us_page_1.html">About Us</a></br>
+						<a class="footertext" href="../html/testimonials.html">Testimonials</a></br>
+						<a class="footertext" href="../html/contact.html">Contact</a></br>
+					</div>
+					
+					<div class="products">
+						<h3 class="footerheader">Products & Services</h3>
+						<a class="footertext" href="../html/products_and_services_straight_stairlifts.html">Straight Stairlifts</a></br>
+						<a class="footertext" href="../html/products_and_services_curved_stairlifts.html">Curved Stairlifts</a></br>
+						<a class="footertext" href="../html/products_and_services_vehicle_scooter_lifts.html">Vehicle Scooter Lifts</a></br>
+						<a class="footertext" href="../html/products_and_services_grab_bars.html">Grab Bars</a></br>
+						<a class="footertext" href="../html/products_and_services_ramps.html">Ramps</a></br>
+						<a class="footertext" href="../html/products_and_services_ceiling_lifts.html">Ceiling Lifts</a>
+					</div>
+					
+				</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="../javascript/menu.js"></script>
+	
+	</body>
