@@ -472,7 +472,7 @@ img.hover-shadow {
 
 .capstylecolumn{
     flex: 50%;
-    padding: 0 4px;
+	margin-top:30px;
 }
 .capstylecolumn img{
 	flex: 50%;
@@ -480,14 +480,79 @@ img.hover-shadow {
 }
 .capstylebox{
 	border:solid 1px blue;
-	display:inline-block;
-	padding:7px;
+	margin-bottom:7px;
+	height:350px;
+		
 }
 .capstylebox span{
 	font-family:Play;
 	Font-size:16pt;
 	font-weight:700;
 	color:white;
+}
+/*#capstylebox1{
+	background-image:url("../images/capstylebanner1.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+	
+}*/
+.capstyleinner1{
+	background-image:url("../images/capstylebanner1.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+}
+.capstyleinner2{
+	background-image:url("../images/capstylebanner2.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+}
+.capstyletext1{
+	border:1px solid orange;
+	width:500px;
+	height:300px;
+	margin:0px 20px 0px 0px;
+}
+.capstyleimage1{
+	width:300px;
+	height:300px;
+	border:1px solid pink;
+	margin:0px 0px 0px 20px;
+}
+.capstyletext2{
+	border:1px solid orange;
+	width:500px;
+	height:300px;
+	margin:0px 0px 0px 20px;
+}
+.capstyleimage2{
+	width:300px;
+	height:300px;
+	border:1px solid pink;
+	margin:0px 20px 0px 0px;
 }
 #processwrap span{
 	font-family:Play;
