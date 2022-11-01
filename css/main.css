@@ -364,7 +364,7 @@ img.hover-shadow {
 	font-size:16pt;
 	color:#f5d553;
 }
-#processtext{
+.processtext{
 	border:1px solid aqua;
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
@@ -479,7 +479,7 @@ img.hover-shadow {
     padding: 0 4px;
 }
 .capstylebox{
-	border:solid 1px blue;
+	border:solid 2px white;
 	margin-bottom:7px;
 	height:350px;
 		
@@ -488,22 +488,9 @@ img.hover-shadow {
 	font-family:Play;
 	Font-size:16pt;
 	font-weight:700;
-	color:white;
+	color:#f5d553;
 }
-/*#capstylebox1{
-	background-image:url("../images/capstylebanner1.png");
-	background-repeat:no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-	width:100%;
-	height:100%;
-	margin: 0 auto;
-	
-}*/
+
 .capstyleinner1{
 	background-image:url("../images/capstylebanner1.png");
 	background-repeat:no-repeat;
@@ -531,28 +518,55 @@ img.hover-shadow {
 	margin: 0 auto;
 }
 .capstyletext1{
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	width:500px;
 	height:300px;
 	margin:0px 20px 0px 0px;
+	padding:10px;
+	font-family:Roboto;
+	color: white;
+	background-color:rgba(51, 85, 64, 0.5);
+}
+.capstyletext1 p{
+	text-align:left;
+	display:flex;
+}
+.capstyletext2 p{
+	text-align:left;
 }
 .capstyleimage1{
 	width:300px;
 	height:300px;
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:0px 0px 0px 20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.capstyleimage1 img{
+	/*border:1px solid black;*/
 }
 .capstyletext2{
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	width:500px;
 	height:300px;
 	margin:0px 0px 0px 20px;
+	padding:10px;
+	font-family:Roboto;
+	color: white;
+	background-color:rgba(51, 85, 64, 0.6);
 }
 .capstyleimage2{
 	width:300px;
 	height:300px;
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:0px 20px 0px 0px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.capstyleimage2 img{
+	/*border:1px solid black;*/
 }
 #processwrap span{
 	font-family:Play;
