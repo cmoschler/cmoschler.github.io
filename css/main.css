@@ -21,7 +21,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	margin: 0 auto;
 }
 h1{
@@ -46,19 +46,19 @@ h2{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 }
 #infowrap{
 	width:40%;
 	margin:0 auto;
-	border:1px solid yellow;
+	/*border:1px solid yellow;*/
 	text-align: center;
 	float: right;
 }
 #infobar span{
 	color: white;
 	margin: 0px 0px 0px 40px;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
 	display: inline block;
 	
 }
@@ -67,7 +67,7 @@ nav{
 	margin: 0 auto;
 	margin-top:20px;
 	padding: 0px;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
 }
 nav a{
 	padding: 0px 30px 0px 0px;
@@ -92,10 +92,10 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
+	background-image: url('../images/bg_pattern_test3.png');
 }
 #bigwrap{ 
 	margin: 0 auto;
-	border: 1px solid red;
 	width:100%;
 }
 
@@ -293,8 +293,7 @@ img.hover-shadow {
 	color:#f5d553;
 	cursor: pointer;
 }
-#about{
-	background-color: white;
+#about{	
 	padding: 0px 0px 50px 0px;
 	display: flex;
 	flex-direction: row;
@@ -305,7 +304,7 @@ img.hover-shadow {
 #aboutwrap{
 	width:950px;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 	flex-wrap: wrap;
@@ -326,7 +325,7 @@ img.hover-shadow {
 	display:inline-block;
 	height:400px;
 	width: 450px;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	float:right;
 }
@@ -492,9 +491,7 @@ img.hover-shadow {
 }
 
 .capstyleinner1{
-	background-image:url("../images/capstylebanner1.png");
-	background-repeat:no-repeat;
-	background-size: cover;
+	background-image:url("../images/pattern_test3.png");
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
@@ -525,7 +522,8 @@ img.hover-shadow {
 	padding:10px;
 	font-family:Roboto;
 	color: white;
-	background-color:rgba(51, 85, 64, 0.5);
+	background-color:rgba(51, 85, 64, 0.7);
+	outline:solid 2px #f5d553;
 }
 .capstyletext1 p{
 	text-align:left;
@@ -634,7 +632,6 @@ img.hover-shadow {
 
 /*Contact Form*/
 #contact{
-	background-color:#FFFFFF;
 	padding: 0px 0px 50px 0px;
 	display: flex;
 	flex-direction: row;
