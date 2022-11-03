@@ -475,6 +475,7 @@ img.hover-shadow {
 .capstylecolumn img{
 	flex: 50%;
     padding: 0 4px;
+	width:100%;
 }
 .capstylebox{
 	border:solid 2px white;
