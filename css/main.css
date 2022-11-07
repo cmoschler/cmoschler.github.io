@@ -75,10 +75,19 @@ nav a{
 	font-weight: 700;
 	text-decoration:none;
 	color:#335540;
+	transition:0.5s;
+}
+nav a:hover{
+	color:#f5d553;
+	cursor: pointer;
+	font-size:18pt;
+}
+nav span{
+	color:#f5d553;
 }
 .logo{
 	float:left;
-	width:250px;
+	height:80%;
 	margin-top:5px;
 }
 
@@ -109,7 +118,8 @@ body {
 }
 #portfoliowrap2{
 	margin:0 auto;
-	margin-top:75px;
+	margin-top:100px;
+	margin-bottom:100px;
 	width:80%;
 	display:flex;
 }
@@ -133,6 +143,11 @@ body {
 	margin:0 auto;
 	/*border: solid 1px black;*/
 	display: flex;
+	transition:0.7s;
+}
+.column img:hover{
+	background-color:rgba(245,213,83, 0.2);
+	cursor:pointer;
 }
 
 /*Modal*/
@@ -243,7 +258,7 @@ img.hover-shadow {
     justify-content: center;
     align-items: center;
 	width:100%;
-	height:800px;
+	height:700px;
 	margin: 0 auto;
 }
 #landingwrap1{
@@ -285,7 +300,6 @@ img.hover-shadow {
 	vertical-align:middle;
 	line-height: 35px;
 	transition:color 0.5s;
-	transition:background-color 0.5s;
 	}
 .button:hover{
 	Background-color:white;
@@ -293,7 +307,7 @@ img.hover-shadow {
 	cursor: pointer;
 }
 #about{	
-	padding: 0px 0px 50px 0px;
+	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
@@ -312,11 +326,13 @@ img.hover-shadow {
 	
 }
 #aboutphoto{
-	background-image:url("../images/landing2.png");
+	background-image:url("../images/aboutphoto0.png");
+	background-repeat:no-repeat;
+	background-size: cover;
 	display:inline-block;
-	height:400px;
+	height:450px;
 	width:450px;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	float:left;
 }
@@ -341,7 +357,7 @@ img.hover-shadow {
 }
 #process{
 	background-color: #335540;
-	padding: 0px 0px 50px 0px;
+	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
@@ -441,7 +457,7 @@ img.hover-shadow {
 /*Cap Style Section*/
 #capstyles{
 	background-color: #335540;
-	padding: 0px 0px 50px 0px;
+	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
@@ -451,12 +467,12 @@ img.hover-shadow {
 #capstylewrap{
 	width:1000px;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 }
 #capstyletext{
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
 	color:white;
@@ -478,8 +494,7 @@ img.hover-shadow {
 	width:100%;
 }
 .capstylebox{
-	border:solid 2px white;
-	margin-bottom:7px;
+	margin-bottom:20px;
 	height:350px;
 		
 }
@@ -491,7 +506,11 @@ img.hover-shadow {
 }
 
 .capstyleinner1{
-	background-image:url("../images/pattern_test3.png");
+	/*background-image:url("../images/capstylebanner1.png");*/
+	background-image:url("../images/bg_pattern_test5.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-color: #3e674d;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
@@ -502,9 +521,10 @@ img.hover-shadow {
 	margin: 0 auto;
 }
 .capstyleinner2{
-	background-image:url("../images/capstylebanner2.png");
+	background-image:url("../images/bg_pattern_test5.png");
 	background-repeat:no-repeat;
 	background-size: cover;
+	background-color: #3e674d;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
@@ -523,7 +543,7 @@ img.hover-shadow {
 	font-family:Roboto;
 	color: white;
 	background-color:rgba(51, 85, 64, 0.7);
-	outline:solid 2px #f5d553;
+	/*outline:solid 2px #f5d553;*/
 }
 .capstyletext1 p{
 	text-align:left;
@@ -566,6 +586,58 @@ img.hover-shadow {
 .capstyleimage2 img{
 	/*border:1px solid black;*/
 }
+
+/*DECORATIONS SECTION*/
+#decorations{
+	background-color: #335540;
+	padding: 70px 0px 70px 0px;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#decowrap{
+	width:1000px;
+	padding: 0px 50px 50px 50px;
+	margin: 0 auto;
+	text-align:center;
+	border:1px solid orange;
+}
+#decotext{
+	/*border:1px solid aqua;*/
+	margin:0 auto;
+	padding:0px 0px 0px 0px;
+	color:white;
+}
+.decorow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+	margin-top:50px;
+	border:1px solid blue;
+}
+
+.decocolumn{
+    flex: 50%;
+}
+.decocolumn img{
+	width:70%;
+	border:1px solid pink;
+}
+.decobox{
+	margin-bottom:20px;
+		
+}
+.decobox span{
+	font-family:Play;
+	Font-size:16pt;
+	font-weight:700;
+	color:#f5d553;
+}
+
+
+/*PROCESS SECTION*/
 #processwrap span{
 	font-family:Play;
 	Font-weight:700;
@@ -632,7 +704,7 @@ img.hover-shadow {
 
 /*Contact Form*/
 #contact{
-	padding: 0px 0px 50px 0px;
+	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
