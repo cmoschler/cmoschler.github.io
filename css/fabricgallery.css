@@ -74,12 +74,12 @@ nav a{
 	font-weight: 700;
 	text-decoration:none;
 	color:#335540;
-	transition:color 0.3s;
+	transition:0.5s;
 }
 nav a:hover{
-	Background-color:white;
 	color:#f5d553;
 	cursor: pointer;
+	font-size:18pt;
 }
 nav span{
 	color:#f5d553;

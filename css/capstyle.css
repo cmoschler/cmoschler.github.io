@@ -106,7 +106,6 @@ body {
 	margin:0 auto;
 	margin-top:100px;
 	padding:5px;
-	background-color: #ededed;
 	width:75%;
 }
 .section{
@@ -124,7 +123,6 @@ body {
     align-items: center;
 	background-color:#3e674d;
 	background-image:url("../images/bg_pattern_test5.png");
-	background-repeat:no-repeat;
 	background-size: cover;
 	
 }
