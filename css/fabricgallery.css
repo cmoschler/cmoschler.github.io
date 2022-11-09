@@ -131,7 +131,7 @@ body {
 	/*border-top: 3px solid transparent;
 	border-image: url(../images/border_test.png) 3 round;*/
 	margin: 0 auto;
-	display: inline-block;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	/*background-color:#335540;*/
@@ -159,7 +159,10 @@ body {
 	width:125px;
 	height:125px;
 }
-
+.thumbwrap{
+	/*border:1px solid blue;*/
+	text-align:center;
+}
 .smallthumb{
 	width:70px;
 	height:70px;

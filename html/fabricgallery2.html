@@ -29,7 +29,7 @@
 		<div id="bigwrap">
 			<div id="gallerywrap"> 
 				  <div id="gallery1">
-			   		    <a href="../html/fabricgallery.html"><img class ="bigthumb" src="../images/fabicons/fabicon1.png" alt=""/></a>
+					  	<a href="../html/fabricgallery.html"><img class ="bigthumb" src="../images/fabicons/fabicon1.png" alt=""/></a>
 					  	<a href="../html/fabricgallery2.html"><img class ="bigthumb" src="../images/fabicons/fabicon2-2.png" alt=""/></a>
 					  	<a href="../html/fabricgallery3.html"><img class ="bigthumb" src="../images/fabicons/fabicon3.png" alt=""/></a>
 					  	<a href="../html/fabricgallery4.html"><img class ="bigthumb" src="../images/fabicons/fabicon4.png" alt=""/></a>
@@ -39,49 +39,99 @@
 				  </div>
 				
 				  <div id="gallery3">
-				  		<img src="../images/placeholderdisplay.png" width="700" height="300" alt=""/> 
+				  		<img id="MainImg" src="../images/fabdisplay/fabdisplay1.png"/> 
 				  </div>
 				
-				  <div id="gallery2">
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					  	<img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>
-					    <img class ="smallthumb" src="../images/placeholderthumb.png" alt=""/>					    
+				  <div id="gallery2" onclick="changeMainImage(event)">
+						<div class="thumbwrap">	
+					  		<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay1.png" src="../images/fabthumbs/fabthumb1.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay2.png" src="../images/fabthumbs/fabthumb2.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay3.png" src="../images/fabthumbs/fabthumb3.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay4.png" src="../images/fabthumbs/fabthumb4.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay5.png" src="../images/fabthumbs/fabthumb5.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay6.png" src="../images/fabthumbs/fabthumb6.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay7.png" src="../images/fabthumbs/fabthumb7.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay8.png" src="../images/fabthumbs/fabthumb8.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay9.png" src="../images/fabthumbs/fabthumb9.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay10.png" src="../images/fabthumbs/fabthumb10.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay11.png" src="../images/fabthumbs/fabthumb11.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay12.png" src="../images/fabthumbs/fabthumb12.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay13.png" src="../images/fabthumbs/fabthumb13.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay14.png" src="../images/fabthumbs/fabthumb14.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay15.png" src="../images/fabthumbs/fabthumb15.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay16.png" src="../images/fabthumbs/fabthumb16.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay17.png" src="../images/fabthumbs/fabthumb17.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay18.png" src="../images/fabthumbs/fabthumb18.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay19.png" src="../images/fabthumbs/fabthumb19.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay20.png" src="../images/fabthumbs/fabthumb20.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay21.png" src="../images/fabthumbs/fabthumb21.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay22.png" src="../images/fabthumbs/fabthumb22.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay23.png" src="../images/fabthumbs/fabthumb23.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay24.png" src="../images/fabthumbs/fabthumb24.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay25.png" src="../images/fabthumbs/fabthumb25.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay26.png" src="../images/fabthumbs/fabthumb26.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay27.png" src="../images/fabthumbs/fabthumb27.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay28.png" src="../images/fabthumbs/fabthumb28.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay29.png" src="../images/fabthumbs/fabthumb29.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay30.png" src="../images/fabthumbs/fabthumb30.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay31.png" src="../images/fabthumbs/fabthumb31.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay32.png" src="../images/fabthumbs/fabthumb32.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay33.png" src="../images/fabthumbs/fabthumb33.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay34.png" src="../images/fabthumbs/fabthumb34.png" alt=""/>
+							<img class ="smallthumb" data-thumb="../images/fabdisplay/fabdisplay35.png" src="../images/fabthumbs/fabthumb35.png" alt=""/>
+						</div>
 				  </div>
 				
 		  </div>
 		</div>
+	
+	
+	<footer>
+		<div id="footerwrap">	
+			<div id="footersection">
+				<a href="../index.html#about">About</a>
+				<a href="../index.html#process">Process</a>
+				<a href="../html/fabricgallery.html">Fabric Gallery</a>
+				<a href="../html/portfolio.html">Portfolio</a>
+				<a href="../index.html#contact">Contact</a>
+				
+			</div>
+			<div id="footersocial">
+				<a href="index.html"><img class="socials" src="../images/social1.png"></a>
+				<a href="index.html"><img class="socials" src="../images/social2.png"></a>
+				<a href="index.html"><img class="socials" src="../images/social3.png"></a>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+	
+	<script type="text/javascript">
+		var images = document.getElementById("gallery2").getElementsByTagName("img");
+		
+		for (var i=0; i < images.length; i++){
+			images[i].onmouseover = function () {
+				this.style.cursor = 'hand';
+				this.style.borderColor = '#1f6db6';
+			}
+			images[i].onmouseout = function () {
+				this.style.cursor = 'pointer';
+				this.style.borderColor = 'rgba(25, 44, 86, 0)';
+			}
+		}
+		
+		function changeMainImage(event) {
+			event = event || window.event;
+			var targetElement = event.target || event.srcElement;
+			if (targetElement.tagName == "IMG"){
+			document.getElementById("MainImg").src = targetElement.getAttribute("data-thumb");
+			}
+		}
+	</script>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="../javascript/menu.js"></script>
 	
 </body>
 </html>

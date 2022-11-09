@@ -172,17 +172,17 @@ body {
   max-width: 1200px;
 }
 .close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
+  color: #335540;
+  float:right;
+  margin:0px 10px 0px 0px;
   font-size: 35px;
   font-weight: bold;
+  transition:0.2s;
 }
 
 .close:hover,
 .close:focus {
-  color: #999;
+  color: #f5d553;
   text-decoration: none;
   cursor: pointer;
 }
@@ -190,6 +190,7 @@ body {
 .mySlides {
   display: none;
 }
+
 .prev,
 .next {
   cursor: pointer;
@@ -198,7 +199,8 @@ body {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: black;
+  color: #335540;
+  background-color: rgba(245, 213, 45, 0.3);
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -212,7 +214,7 @@ body {
 }
 .prev:hover,
 .next:hover {
-  background-color: rgba(51, 85, 64, 0.8);
+  background-color: rgba(245, 213, 45, 0.8);
 }
 .numbertext {
   color: #335540;
@@ -365,10 +367,13 @@ img.hover-shadow {
     align-items: center;
 	
 }
+
+/*PROCESS SECTION*/
+
 #processwrap{
 	width:1000px;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 }
@@ -376,10 +381,17 @@ img.hover-shadow {
 	font-family:Play;
 	Font-weight:700;
 	font-size:16pt;
+	
+}
+.processheader1{
 	color:#f5d553;
 }
+
+.processheader2{
+	color:black;
+}
 .processtext{
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
 	color:white;
@@ -387,22 +399,27 @@ img.hover-shadow {
 #processsections{
 	margin-top:20px;
 	margin-bottom:20px;
-	width:100%;	
+	width:100%;
+	/*border:1px solid red;*/
+	justify-content: center;
+    align-items: center;
+	display:flex;
 }
 .processbox{
-	width:300px;
-
-	display:inline-block;
-	border:1px solid aqua;
+	width:30%;
+	height:500px;
+	/*border:1px solid aqua;*/
 	margin:10px;
 	text-align:center;
+	background-color:rgba(237,237,237, 0.7);
+	justify-content: center;
+    align-items: center;
+	display:flex;
 }
-.processbox span{
-	font-family:Play;
-	Font-size:16pt;
-	font-weight:700;
-	color:white;
+.processboxinner{
+	/*border:1px solid blue;*/
 }
+
 .processbutton{
 	display:inline-block;
 	width:170px;
@@ -411,30 +428,37 @@ img.hover-shadow {
 	font-weight:500;
 	font-size:16pt;
 	color:white;
-	border:2px solid white;
+	background-color:#335540;
 	margin-top:15px;
 	text-align:center;
 	vertical-align:middle;
 	line-height: 35px;
-	transition:border-color 0.2s;
-	transition:color 0.2s;
+	transition: 0.2s;
 	}
 .processbutton:hover{
-	border-color:#f5d553;
-	color:#f5d553;
+	color:#335540;
+	background-color:#f5d553;
 	cursor: pointer;
 }
 .processbox p{
 	font-family:Roboto;
-	color: white;
+	color: black;
 	text-align:left;
+	
 }
 .processimg{
-	width:150px;
-	height:150px;
+	width:200px;
+	height:200px;
 	margin-bottom:10px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	display:inline-block;
+	/*background-color:#335540;*/
+	padding:10px;
+}
+.processboxtext{
+	/*border:1px solid orange;*/
+	width:90%;
+	margin:0 auto;
 }
 #order{
 	background-color:white;
@@ -658,70 +682,6 @@ img.hover-shadow {
 }
 
 
-/*PROCESS SECTION*/
-#processwrap span{
-	font-family:Play;
-	Font-weight:700;
-	font-size:16pt;
-	color:#f5d553;
-}
-#processtext{
-	border:1px solid aqua;
-	margin:0 auto;
-	padding:0px 0px 0px 0px;
-	color:white;
-}
-#processsections{
-	margin-top:20px;
-	width:100%;	
-}
-.processbox{
-	width:300px;
-
-	display:inline-block;
-	border:1px solid aqua;
-	margin:10px;
-	text-align:center;
-}
-.processbox span{
-	font-family:Play;
-	Font-size:16pt;
-	font-weight:700;
-	color:white;
-}
-.processbutton{
-	display:inline-block;
-	width:170px;
-	height:40px;
-	font-family:Roboto;
-	font-weight:500;
-	font-size:16pt;
-	color:white;
-	border:2px solid white;
-	margin-top:15px;
-	text-align:center;
-	vertical-align:middle;
-	line-height: 35px;
-	transition:border-color 0.2s;
-	transition:color 0.2s;
-	}
-.processbutton:hover{
-	border-color:#f5d553;
-	color:#f5d553;
-	cursor: pointer;
-}
-.processbox p{
-	font-family:Roboto;
-	color: white;
-	text-align:left;
-}
-.processimg{
-	width:150px;
-	height:150px;
-	margin-bottom:10px;
-	border:1px solid red;
-	display:inline-block;
-}
 
 /*Contact Form*/
 #contact{
@@ -810,7 +770,7 @@ label{
 /*Footer*/
 footer{
 	background-color: #335540;
-	height:100px;
+	padding:20px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
@@ -820,25 +780,29 @@ footer{
 #footerwrap{
 	width:1050px;
 	height:80%;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin:0 auto;
 	display:flex;
-	justify-content:center;
 	
 }
 #footersection{
 	float:left;
 	width:60%;
 	height:70%;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
 	margin:auto;
-	display:inline-block;	
+		
+	
+	text-align:left;
 }
 #footersocial{
 	float:right;
 	width:30%;
 	height:70%;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
+	margin:auto;
+}
+#footerbutton{
 	margin:auto;
 	display:inline-block;
 }
@@ -847,13 +811,30 @@ footer a {
 	text-decoration:none;
 	font-family:Roboto;
 	font-size:12pt;
-	margin: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 10px;
+	transition:0.2s;
+}
+footer a:hover{
+	color:#f5d553;
+	font-size:13pt;
 }
 .socials{
-	width:50px;
-	height:50px;
-	float:left;
-	margin-right:7px;
+	width:40px;
+	height:40px;
+	float:right;
+	margin: 0px 3px 0px 3px;
+	transition:0.2s;
+}
+.socials:hover{
+	width:45px;
+	height:45px;
+}
+.topbutton{
+	width:60px;
+	transition:0.2s;
+}
+.topbutton:hover{
+	width:65px;
 }
 
 /*Media Queries*/
