@@ -23,6 +23,10 @@ header{
 	/*border:1px solid red;*/
 	margin: 0 auto;
 }
+header ul{
+	color:blue;
+	text-color: blue;
+}
 h1{
 	font-family: Play;
 	font-size:30pt;
@@ -61,14 +65,14 @@ h2{
 	display: inline block;
 	
 }
-nav{
+#fullnav{
 	float:right;
 	margin: 0 auto;
 	margin-top:20px;
 	padding: 0px;
 	/*border: 1px solid aqua;*/
 }
-nav a{
+#fullnav a{
 	padding: 0px 30px 0px 0px;
 	font-family: Play;
 	font-size:16pt;
@@ -77,13 +81,16 @@ nav a{
 	color:#335540;
 	transition:0.5s;
 }
-nav a:hover{
+#fullnav a:hover{
 	color:#f5d553;
 	cursor: pointer;
 	font-size:18pt;
 }
 nav span{
 	color:#f5d553;
+}
+.topnav{
+	display:none;
 }
 .logo{
 	float:left;
@@ -835,27 +842,94 @@ footer a:hover{
 
 /*MOBILE*/
 @media (max-width: 480px){
-	
-#headerwrap{
-		display:none;
-}
-header{
+
+/*NAVIGATION*/
+	header{
 	position:fixed;
 	width:100%;
 	height:50px;
 	margin:0 auto;
 	background-color:white;
 }
-.burger{
-		display:block;
-		height:40px;
-		width:40px;
-		background:url(../images/burger1.png) no-repeat;
-		border:1px solid pink;
-		margin:5px;
-		float:right;
-		cursor: pointer;
+	#headerwrap{
+		/*border:1px solid red;*/
+		width:100%;
+		height:100%;
+		flex-direction: row;
+    	flex-wrap: wrap;
+    	justify-content: none;
+    	align-items: none;
 }
+	#infobar{
+		display:none;
+	}
+	.logo{
+		height:100%;
+		display:block;
+		/*border:1px solid blue;*/
+		float:left;
+		margin:0px;
+		padding:0px;
+	}
+	#fullnav{
+		margin:0 auto;
+		padding:0px;
+		text-align:center;
+		display:none;
+	}
+	#fullnav a{
+		display:inline-block;
+		/*border:1px solid blue;*/
+		background-color:#335540;
+		color:white;
+		width:100%;
+		padding:5px 0px 5px 0px;
+	}
+	.burger{
+		display:block;
+		height:100%;
+		
+		background:url(../images/burger1.png) no-repeat 98% center;
+		/*border:1px solid blue;*/
+		cursor: pointer;
+	}
+	#mobilenav {
+		width:100%;
+		margin:0 auto;
+		margin-top: 50px;
+		padding: 0px;
+		text-decoration: none;
+	}
+	#mobilenav ul{
+		padding:0px;
+		background-color: #213b74;
+		margin:0px;
+		text-align:center;
+		overflow:hidden;
+		height:0;
+	}
+	#mobilenav ul.open{
+		height:auto;
+	}
+	#mobilenav ul li{
+		margin:0px;
+		padding:5px;
+		border-bottom:4px solid #192C56;
+		transition: none;
+		display:block;
+		
+	}
+	#mobilenav ul li a{
+		padding:0px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 13pt;
+		color: #ffffff;
+		transition: none;
+		
+	}
+
 /*LANDING SECTION*/
 #landingsection{
 	background-image:url("../images/landing6.png");
@@ -1298,6 +1372,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+	
 }
 #contactwrap{
 	width:100%;
@@ -1309,23 +1384,34 @@ header{
 }
 
 div.contactform {
-	
+	justify-content: center;
+    align-items: center;
+	display:flex;
 	width:100%;
+	height:450px;
 	padding:10px 0px 10px 0px;
 	background-color:#335540;
+	border:1px solid blue;
+	
+}
+form.contactform{
+	border:1px solid yellow;
+	width:90%;
+	
 }
 input.text{
 	height:30px;
 	width:80%;
+	margin:-20px 0px 0px 0px;
 	border-radius: 0px;
-	border:none;
+	border:1px solid red;
 	
 }
 textarea.message{
 	height:150px;
 	width:80%;
 	border-radius: 0px;
-	border:none;
+	border:1px solid red;
 }
 input.submit{
 	width:170px;
@@ -1366,5 +1452,52 @@ label{
 footer{
 	display:none;
 }
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background-image: url("burger1.png");
+  background-repeat:no-repeat;
+  width:15px;
+  height:15px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border:1px solid blue;
+  margin: 0 auto;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+}
+
 

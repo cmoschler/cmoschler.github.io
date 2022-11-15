@@ -10,21 +10,23 @@
 
 <a name="top"></a>
 <body>
+	
 	<header>
-		<a class="burger"></a>
+		
 		<div id="headerwrap">
 			<div id="infobar">
 				<div id="infowrap"><span>1-800-800-4225</span><span>info@bretmor.com</span></div>
 			</div>	
 			<a href="index.html"><img class="logo" src="images/bretmor_logo4.png"></a>
-			<nav>	
+			<div id="fullnav">	
 				<a href="#about">About</a>
 				<a href="#process">Process</a>
 				<a href="html/fabricgallery.html">Fabric Gallery</a>
 				<a href="html/portfolio.html">Portfolio</a>
 				<a href="#contact">Contact</a>
-				
-			</nav>
+			</div>
+			<a href="javascript:void(0);" class="burger" onclick="myFunction()">
+  			</a>
 		</div>	
 	</header>
 	
@@ -322,11 +324,11 @@
 				<div class="contactform">
 				
 					<form class="contactform" name="form" method="post" action="../php/form.php">
-					<label for="name">Name</label><br />
+					<label for="name">Name</label><br /><br />
 					<input class="text" name="name" type="text" />
 					<br /><br />
 
-					<label for="email">Email</label><br />
+					<label for="email">Email</label><br /><br/>
 					<input class="text" name="email" type="text" />
 					<br /><br />
 
@@ -373,5 +375,20 @@
 			</div>
 		</div>
 	</footer>
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("fullnav");
+  if (x.style.display === "inline-block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "inline-block";
+  }
+}
+</script>
+	
+	
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
 </body>
 </html>
