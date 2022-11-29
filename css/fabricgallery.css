@@ -145,6 +145,9 @@ body {
 	/*border:1px solid pink;*/
 	
 }
+#gallery2-2{
+	display:none;
+}
 
 #gallery3{
 	width:100%;
@@ -153,6 +156,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+#gallery3-2{
+	display:none;
+	
 }
 .bigthumb{
 	width:110px;
@@ -355,22 +362,28 @@ body {
 	
 }
 #gallery2{
+	display:none;
+	
+}
+#gallery2-2{
 	width:90%;
 	height:100%;
-	
-	
 	/*border-top: 3px solid transparent;
 	border-image: url(../images/border_test.png) 3 round;*/
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*background-color:#335540;*/
+	background-color:#335540;
 	border:none;
 	
 }
 
 #gallery3{
+	display:none;
+	
+}
+#gallery3-2{
 	width:300px;
 	height:450px;
 	/*border: 1px dashed green;*/
@@ -413,6 +426,11 @@ body {
 	height:50px;
 }
 #MainImg{	
+	width:100%;
+	height: 100%;
+	border:2px solid #1A2D21;
+}
+#MainImg2{	
 	width:100%;
 	height: 100%;
 	border:2px solid #1A2D21;
