@@ -41,6 +41,31 @@ h2{
 	color: white;
 	border-bottom: 10px double;
 }
+h3{
+	font-family:Play;
+	font-size:15pt;
+	font-weight:700;
+	color:black;
+}
+h4{
+	font-family:Roboto;
+	font-size:14pt;
+	font-weight:700;
+	color:black;
+}
+h5{
+	font-family:Play;
+	font-size:23pt;
+	font-weight:700;
+	color:#f5d553;
+	
+}
+h6{
+	font-family:Play;
+	font-size:15pt;
+	font-weight:700;
+	color:#f5d553;
+}
 #infobar{
 	width:100%;
 	height: 20px;
@@ -367,7 +392,8 @@ img.hover-shadow {
 }
 /*PROCESS SECTION*/
 #process{
-	background-color: #335540;
+	background-image:url("../images/bg_pattern_test5.png");
+	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
@@ -521,7 +547,7 @@ img.hover-shadow {
 
 .capstyleinner1{
 	/*background-image:url("../images/capstylebanner1.png");*/
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/capstylebanner1.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -535,7 +561,7 @@ img.hover-shadow {
 	margin: 0 auto;
 }
 .capstyleinner2{
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/capstylebanner2.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -625,7 +651,9 @@ img.hover-shadow {
 
 /*DECORATIONS SECTION*/
 #decorations{
-	background-color: #335540;
+	background-image:url("../images/bg_pattern_test5.png");
+	
+	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
@@ -634,7 +662,8 @@ img.hover-shadow {
     align-items: center;
 }
 #decowrap{
-	width:1000px;
+	width:100%;
+	max-width:1000px;
 	padding: 0px 50px 50px 50px;
 	margin: 0 auto;
 	text-align:center;
@@ -646,30 +675,41 @@ img.hover-shadow {
 	padding:0px 0px 0px 0px;
 	color:white;
 }
-.decorow{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-	margin-top:50px;
-	border:1px solid blue;
-}
 
+.decosection{
+	border:1px solid blue;
+	width:100%;
+	padding:0px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	margin:10px 0px 0px 0px;
+}
 .decocolumn{
-    flex: 50%;
+	border:1px solid aqua;
+	width:100%;
+	margin:0px 5px 0px 5px;
+	padding:10px;
+	background-color:rgba(237,237,237, 0.7);
 }
 .decocolumn img{
-	width:70%;
+	width:100%;
+	height:100%;
+	max-width:250px;
 	border:1px solid pink;
 }
-.decobox{
-	margin-bottom:20px;
-		
+.decocolumn h4{
+	border:1px solid pink;
+	margin:0px 0px 10px 0px;
 }
-.decobox span{
-	font-family:Play;
-	Font-size:16pt;
-	font-weight:700;
-	color:#f5d553;
+#decowrap h5{
+	border:1px solid pink;
+	margin:40px 0px 10px 0px;
+}
+#decowrap h6{
+	border:1px solid pink;
+	margin:40px 0px 0px 0px;
 }
 
 
@@ -1204,7 +1244,6 @@ img.hover-shadow {
 #process{
 	width:100%;
 	/*border:1px solid orange;*/
-	background-color: #335540;
 	padding: 0px 0px 0px 0px;
 	display: flex;
 	flex-direction: none;
@@ -1358,9 +1397,6 @@ img.hover-shadow {
 
 .capstyleinner1{
 	/*background-image:url("../images/capstylebanner1.png");*/
-	background-image:url("../images/bg_pattern_test5.png");
-	background-repeat:no-repeat;
-	background-size: cover;
 	background-color: #3e674d;
 	display: flex;
 	flex-direction: row;
@@ -1372,9 +1408,6 @@ img.hover-shadow {
 	margin: 0 auto;
 }
 .capstyleinner2{
-	background-image:url("../images/bg_pattern_test5.png");
-	background-repeat:no-repeat;
-	background-size: cover;
 	background-color: #3e674d;
 	display: flex;
 	flex-direction: row;
@@ -1460,7 +1493,6 @@ img.hover-shadow {
 
 /*DECORATIONS SECTION*/
 #decorations{
-	background-color: #335540;
 	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
@@ -1845,7 +1877,6 @@ footer a:hover{
 }
 /*PROCESS SECTION*/
 #process{
-	background-color: #335540;
 	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
@@ -2109,7 +2140,6 @@ footer a:hover{
 }
 /*DECORATIONS SECTION*/
 #decorations{
-	background-color: #335540;
 	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
@@ -2633,7 +2663,6 @@ img.hover-shadow {
 }
 /*PROCESS SECTION*/
 #process{
-	background-color: #335540;
 	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
@@ -2892,7 +2921,7 @@ img.hover-shadow {
 }
 /*DECORATIONS SECTION*/
 #decorations{
-	background-color: #335540;
+
 	padding: 70px 0px 70px 0px;
 	display: flex;
 	flex-direction: row;
