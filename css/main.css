@@ -668,7 +668,7 @@ img.hover-shadow {
 	padding: 0px 50px 50px 50px;
 	margin: 0 auto;
 	text-align:center;
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 }
 #decowrap2{
 	display:none;
@@ -711,11 +711,11 @@ img.hover-shadow {
 	margin:0px 0px 10px 0px;
 }
 #decowrap h5{
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:40px 0px 10px 0px;
 }
 #decowrap h6{
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:40px 0px 0px 0px;
 }
 
@@ -731,7 +731,7 @@ img.hover-shadow {
 #contactwrap{
 	width:950px;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 	
@@ -783,7 +783,7 @@ label{
 }
 #contact2{
 	width:450px;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	display:inline-block;
 	float:right;
 	margin:0 auto;
@@ -1359,7 +1359,7 @@ img.hover-shadow {
 #capstylewrap{
 	width:100%;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 }
@@ -1509,7 +1509,7 @@ img.hover-shadow {
 #contactwrap{
 	width:950px;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 	
@@ -1561,7 +1561,7 @@ label{
 }
 #contact2{
 	width:45%;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	display:inline-block;
 	float:right;
 	margin:0 auto;
@@ -1597,7 +1597,7 @@ footer{
 #footerwrap{
 	width:95%;
 	height:80%;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin:0 auto;
 	display:flex;
 	
@@ -1606,7 +1606,7 @@ footer{
 	float:left;
 	width:73%;
 	height:70%;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
 	margin:auto;
 		
 	
@@ -1616,7 +1616,7 @@ footer{
 	float:right;
 	width:17%;
 	height:60%;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
 	margin:auto;
 }
 #footerbutton{
@@ -1731,7 +1731,7 @@ footer a:hover{
     align-items: center;
 	width:80%;
 	background-color:rgba(51, 85, 64, 0.6);
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 }
 .landingtext1{
 	font-family: Roboto;
@@ -1754,7 +1754,7 @@ footer a:hover{
 	color:#f5d553;
 }
 .buttonwrap{
-	border:1px solid red;
+	/*border:1px solid red;*/
 	justify-content: center;
     align-items: center;
 	text-align:center;
@@ -1769,7 +1769,7 @@ footer a:hover{
 	font-size:16pt;
 	color:#335540;
 	background-color:#f5d553;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	text-align:center;
 	transition:color 0.5s;
 	margin:0 auto;
@@ -1790,7 +1790,7 @@ footer a:hover{
 }
 #aboutwrap{
 	width:100%;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
     justify-content: center;
@@ -1804,7 +1804,7 @@ footer a:hover{
 	background-size: cover;
 	width:450px;
 	height:450px;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	display:flex;
 	float:none;
@@ -1813,7 +1813,7 @@ footer a:hover{
 #abouttext{
 	width: 450px;
 	height:100%;
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 	margin:0 auto;
 	margin:20px 0px 0px 0px;
 	float:none;
@@ -1843,7 +1843,7 @@ footer a:hover{
 #processwrap{
 	width:100%;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 }
@@ -1862,7 +1862,7 @@ footer a:hover{
 	display:block;
 }
 .processtext{
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
 	color:white;
@@ -1871,7 +1871,7 @@ footer a:hover{
 	margin-top:20px;
 	margin-bottom:20px;
 	width:450px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	justify-content: center;
     align-items: center;
 	display:inline-block;
@@ -1923,13 +1923,13 @@ footer a:hover{
 	width:200px;
 	height:200px;
 	margin-bottom:10px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	display:inline-block;
 	/*background-color:#335540;*/
 	padding:10px;
 }
 .processboxtext{
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	width:90%;
 	margin:0 auto;
 }
@@ -1945,13 +1945,13 @@ footer a:hover{
 #capstylewrap{
 	width:100%;
 	padding: 0px 0px 0px 0px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 }
 #capstyletext{
 	width:90%;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
 	color:black;
@@ -1964,14 +1964,14 @@ footer a:hover{
     flex-wrap: wrap;
     padding: 0 4px;
 	margin-top:50px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .capstylecolumn{
     flex: 50%;
 	height:100%;
 	margin-top:30px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 .capstylecolumn img{
 	flex: 50%;
@@ -2022,7 +2022,7 @@ footer a:hover{
 	padding:20px 0px 20px 0px;
 }
 .capstyletext1{
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	width:450px;
 	margin:10px 10px 10px 10px;
 	padding:20px 10px 20px 10px;
@@ -2045,7 +2045,7 @@ footer a:hover{
 	/*border:1px solid black;*/
 }
 .capstyletext2{
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	width:450px;
 	margin:10px 10px 10px 10px;
 	padding:20px 10px 20px 10px;
@@ -2118,7 +2118,7 @@ footer a:hover{
 	padding: 0px 20px 30px 20px;
 	margin: 0 auto;
 	text-align:center;
-	border:1px solid yellow;
+	/*border:1px solid yellow;*/
 }
 #decotext{
 	/*border:1px solid aqua;*/
@@ -2158,11 +2158,11 @@ footer a:hover{
 	margin:0px 0px 10px 0px;
 }
 #decowrap h5{
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:40px 0px 10px 0px;
 }
 #decowrap h6{
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:40px 0px 0px 0px;
 }
 
@@ -2180,7 +2180,7 @@ footer a:hover{
 #contactwrap{
 	width:100%;
 	padding: 0px 0px 0px 0px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 	
@@ -2194,11 +2194,11 @@ div.contactform {
 	height:450px;
 	padding:10px 0px 10px 0px;
 	background-color:#335540;
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 	
 }
 form.contactform{
-	border:1px solid yellow;
+	/*border:1px solid yellow;*/
 	width:90%;
 	
 }
@@ -2207,7 +2207,7 @@ input.text{
 	width:80%;
 	margin:-20px 0px 0px 0px;
 	border-radius: 0px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	
 }
 textarea.message{
@@ -2215,7 +2215,7 @@ textarea.message{
 	width:80%;
 	margin:0px 0px 0px 0px;
 	border-radius: 0px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	
 }
 input.submit{
@@ -2249,7 +2249,7 @@ label{
 }
 #contact3{
 	width:100%;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	display:inline-block;
 	float:right;
 	margin:0 auto;
@@ -2288,7 +2288,7 @@ footer{
   position: absolute;
   right: 0;
   top: 0;
-  border:1px solid blue;
+  /*border:1px solid blue;*/
   margin: 0 auto;
 }
 
@@ -2534,7 +2534,7 @@ img.hover-shadow {
     align-items: center;
 	width:70%;
 	background-color:rgba(51, 85, 64, 0.6);
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 }
 .landingtext1{
 	font-family: Roboto;
@@ -2557,7 +2557,7 @@ img.hover-shadow {
 	color:#f5d553;
 }
 .buttonwrap{
-	border:1px solid red;
+	/*border:1px solid red;*/
 	justify-content: center;
     align-items: center;
 	text-align:center;
@@ -2572,7 +2572,7 @@ img.hover-shadow {
 	font-size:16pt;
 	color:#335540;
 	background-color:#f5d553;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	text-align:center;
 	transition:color 0.5s;
 	margin:0 auto;
@@ -2593,7 +2593,7 @@ img.hover-shadow {
 }
 #aboutwrap{
 	width:100%;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
     justify-content: center;
@@ -2607,14 +2607,14 @@ img.hover-shadow {
 	background-size: cover;
 	width:305px;
 	height:305px;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 }
 #abouttext{
 	display:inline-block;
 	width: 300px;
 	height:100%;
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 	margin:0 auto;
 	margin:20px 0px 0px 0px;
 	float:none;
@@ -2643,7 +2643,7 @@ img.hover-shadow {
 #processwrap{
 	width:100%;
 	padding: 0px 50px 50px 50px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 }
@@ -2670,7 +2670,7 @@ img.hover-shadow {
 	margin-top:20px;
 	margin-bottom:20px;
 	width:300px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	justify-content: center;
     align-items: center;
 	display:inline-block;
@@ -2678,7 +2678,7 @@ img.hover-shadow {
 .processbox{
 	width:100%;
 	height:100%;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	margin:10px 0px 10px 0px;
 	text-align:center;
@@ -2743,12 +2743,12 @@ img.hover-shadow {
 #capstylewrap{
 	width:100%;
 	padding: 0px 0px 0px 0px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 }
 #capstyletext{
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
 	color:black;
@@ -2761,14 +2761,14 @@ img.hover-shadow {
     flex-wrap: wrap;
     padding: 0 4px;
 	margin-top:50px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .capstylecolumn{
     flex: 50%;
 	height:100%;
 	margin-top:30px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 .capstylecolumn img{
 	flex: 50%;
@@ -2817,7 +2817,7 @@ img.hover-shadow {
 	margin: 0 auto;
 }
 .capstyletext1{
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	width:100%;
 	margin:10px 10px 10px 10px;
 	padding:20px 10px 20px 10px;
@@ -2840,7 +2840,7 @@ img.hover-shadow {
 	/*border:1px solid black;*/
 }
 .capstyletext2{
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	width:100%;
 	margin:10px 10px 10px 10px;
 	padding:20px 10px 20px 10px;
@@ -2912,7 +2912,7 @@ img.hover-shadow {
 	padding: 0px 20px 30px 20px;
 	margin: 0 auto;
 	text-align:center;
-	border:1px solid yellow;
+	/*border:1px solid yellow;*/
 }
 #decotext{
 	/*border:1px solid aqua;*/
@@ -2952,11 +2952,11 @@ img.hover-shadow {
 	margin:0px 0px 10px 0px;
 }
 #decowrap h5{
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:40px 0px 10px 0px;
 }
 #decowrap h6{
-	border:1px solid pink;
+	/*border:1px solid pink;*/
 	margin:40px 0px 0px 0px;
 }
 	/*CONTACT FORM*/
@@ -2972,7 +2972,7 @@ img.hover-shadow {
 #contactwrap{
 	width:100%;
 	padding: 0px 0px 0px 0px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin: 0 auto;
 	text-align:center;
 	
@@ -2986,11 +2986,11 @@ div.contactform {
 	height:450px;
 	padding:10px 0px 10px 0px;
 	background-color:#335540;
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 	
 }
 form.contactform{
-	border:1px solid yellow;
+	/*border:1px solid yellow;*/
 	width:90%;
 	
 }
@@ -2999,14 +2999,14 @@ input.text{
 	width:80%;
 	margin:-20px 0px 0px 0px;
 	border-radius: 0px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	
 }
 textarea.message{
 	height:150px;
 	width:80%;
 	border-radius: 0px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 input.submit{
 	width:170px;
@@ -3039,7 +3039,7 @@ label{
 }
 #contact3{
 	width:100%;
-	border:1px solid aqua;
+	/*border:1px solid aqua;*/
 	display:inline-block;
 	float:right;
 	margin:0 auto;
@@ -3078,7 +3078,7 @@ footer{
   position: absolute;
   right: 0;
   top: 0;
-  border:1px solid blue;
+  /*border:1px solid blue;*/
   margin: 0 auto;
 }
 

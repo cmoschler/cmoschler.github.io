@@ -216,7 +216,7 @@ footer{
 #footerwrap{
 	width:1050px;
 	height:80%;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin:0 auto;
 	display:flex;
 	justify-content:center;
@@ -226,7 +226,7 @@ footer{
 	float:left;
 	width:60%;
 	height:70%;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
 	margin:auto;
 	display:inline-block;	
 }
@@ -234,7 +234,7 @@ footer{
 	float:right;
 	width:30%;
 	height:70%;
-	border: 1px solid aqua;
+	/*border: 1px solid aqua;*/
 	margin:auto;
 	display:inline-block;
 }
@@ -448,7 +448,7 @@ hr{
 	color: #1f6db6;
 	background-color:#1f6db6;
 }
-
+}
 /*TABLET*/
 @media (max-width: 768px){
 	/*NAVIGATION*/
@@ -795,3 +795,4 @@ hr{
 	display:none;
 }
 }
+
