@@ -23,10 +23,6 @@ header{
 	/*border:1px solid red;*/
 	margin: 0 auto;
 }
-header ul{
-	color:blue;
-	text-color: blue;
-}
 h1{
 	font-family: Play;
 	font-size:30pt;
@@ -298,10 +294,6 @@ footer a:hover{
 	/*border:1px solid red;*/
 	margin: 0 auto;
 }
-header ul{
-	color:blue;
-	text-color: blue;
-}
 h1{
 	font-family: Play;
 	font-size:30pt;
@@ -488,7 +480,7 @@ body {
 	header{
 	position:fixed;
 	width:100%;
-	height:50px;
+	height:75px;
 	margin:0 auto;
 	background-color:white;
 }
@@ -500,17 +492,27 @@ body {
     	flex-wrap: wrap;
     	justify-content: none;
     	align-items: none;
+		background-color:white;
 }
 	#infobar{
-		display:none;
+	display:flex;
 	}
+	
+	#infowrap{
+	width:80%;
+	margin:0 auto;
+	/*border:1px solid yellow;*/
+	text-align: center;
+	
+}
 	.logo{
 		height:100%;
 		display:block;
 		/*border:1px solid blue;*/
 		float:left;
-		margin:0px;
+		margin:0 auto;
 		padding:0px;
+		background-color:white;
 	}
 	#fullnav{
 		margin:0 auto;
@@ -531,8 +533,8 @@ body {
 	.burger{
 		display:block;
 		height:100%;
-		
 		background:url(../images/burger1.png) no-repeat 98% center;
+		background-color:white;
 		/*border:1px solid blue;*/
 		cursor: pointer;
 	}

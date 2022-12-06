@@ -6,6 +6,10 @@ function openModal() {
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
+function stopprop(event){
+	event.stopPropagation();
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
