@@ -1,6 +1,6 @@
 // JavaScript Document
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("myModal").style.display = "flex";
 }
 
 function closeModal() {
