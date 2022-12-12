@@ -3297,7 +3297,7 @@ label{
 /*Footer*/
 footer{
 	background-color: #335540;
-	padding:20px;
+	padding:12px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
