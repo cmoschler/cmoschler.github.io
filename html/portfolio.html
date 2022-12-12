@@ -12,14 +12,14 @@
 
 <a name="top"></a>
 	
-<body>
+<body onclick="closeNav()">
 	<header>
 		<div id="headerwrap">
 			<div id="infobar">
 				<div id="infowrap"><span>1-800-800-4225</span><span>info@bretmor.com</span></div>
 			</div>	
-			<a href="../index.html"><img class="logo" src="../images/bretmor_logo4.png"></a>
-			<a href="javascript:void(0);" class="burger" onclick="myFunction()">
+			<a href="../index.html"><img class="logo" src="../images/bretmor_logo6.png"></a>
+			<a href="javascript:void(0);" class="burger" onclick="myFunction();stopprop(event);">
   			</a>
 			<div id="fullnav">	
 				<a href="../index.html#about">About</a>
@@ -87,7 +87,7 @@
 		</div>
 			
 			<!-- Modal/Lightbox -->
-		<div id="myModal" class="modal" onclick="closeModal()">&times;>
+		<div id="myModal" class="modal" onclick="closeModal()">
 			
   			<div class="modal-content" onclick="stopprop(event)">
 				<span class="close cursor" onclick="closeModal()">&times;</span>
@@ -96,77 +96,122 @@
 			<!-- Full Sized Photos in Modal-->	
 			<div class="mySlides">
 				<div class="numbertext">1 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full1.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full1.png">
+				<img src="../images/hatgallery/hatgallery_full1-2.png">
+				</picture>
     		</div>
 			
 			<div class="mySlides">
 				<div class="numbertext">2 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full2.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full2.png">
+				<img src="../images/hatgallery/hatgallery_full2-2.png">
+				</picture>
     		</div>
 		
 			<div class="mySlides">
 				<div class="numbertext">3 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full3.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full3.png">
+				<img src="../images/hatgallery/hatgallery_full3-2.png">
+				</picture>
     		</div>
 			
 			<div class="mySlides">
 				<div class="numbertext">4 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full4.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full4.png">
+				<img src="../images/hatgallery/hatgallery_full4-2.png">
+				</picture>
     		</div>
 			
 			<div class="mySlides">
 				<div class="numbertext">5 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full5.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full5.png">
+				<img src="../images/hatgallery/hatgallery_full5-2.png">
+				</picture>
     		</div>	
 			
 			<div class="mySlides">
 				<div class="numbertext">6 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full6.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full6.png">
+				<img src="../images/hatgallery/hatgallery_full6-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">7 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full7.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full7.png">
+				<img src="../images/hatgallery/hatgallery_full7-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">8 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full8.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full8.png">
+				<img src="../images/hatgallery/hatgallery_full8-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">9 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full9.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full9.png">
+				<img src="../images/hatgallery/hatgallery_full9-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">10 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full10.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full10.png">
+				<img src="../images/hatgallery/hatgallery_full10-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">11 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full11.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full11.png">
+				<img src="../images/hatgallery/hatgallery_full11-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">12 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full12.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full12.png">
+				<img src="../images/hatgallery/hatgallery_full12-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">13 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full13.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full13.png">
+				<img src="../images/hatgallery/hatgallery_full13-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">14 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full14.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full14.png">
+				<img src="../images/hatgallery/hatgallery_full14-2.png">
+				</picture>
     		</div>
 				
 			<div class="mySlides">
 				<div class="numbertext">15 / 15</div>
-				<img src="../images/hatgallery/hatgallery_full15.png" style="width:100%">
+				<picture>
+				<source media="(min-width:769px)" srcset="../images/hatgallery/hatgallery_full15.png">
+				<img src="../images/hatgallery/hatgallery_full15-2.png">
+				</picture>
     		</div>
 				
 			<!-- Modal Next/Previous Controls -->	
@@ -181,18 +226,24 @@
 	
 	<footer>
 		<div id="footerwrap">	
+			
 			<div id="footersection">
-				<a href="../index.html#about">About</a>
-				<a href="../index.html#process">Process</a>
-				<a href="../fabricgallery.html">Fabric Gallery</a>
-				<a href="../html/portfolio.html">Portfolio</a>
-				<a href="../index.html#contact">Contact</a>
+					<a id="footerlink1" href="../index.html#about">About</a>
+					<a id="footerlink2" href="../index.html#process">Process</a>
+					<a id="footerlink3" href="../index.html#capstyles">Cap Styles</a>
+					<a id="footerlink4" href="../index.html#decostyles">Decoration Styles</a>
+					<a id="footerlink5" href="../html/fabricgallery.html">Fabric Gallery</a>
+					<a id="footerlink6" href="../html/portfolio.html">Portfolio</a>
+					<a id="footerlink7" href="../index.html#contact">Contact</a>
 			</div>
 			<div id="footersocial">
 				<a href="index.html"><img class="socials" src="../images/social1.png"></a>
 				<a href="index.html"><img class="socials" src="../images/social2.png"></a>
-				<a href="index.html"><img class="socials" src="../images/social3.png"></a>
+				<div id="footerbutton">
+				<a href="#top"><img class="topbutton" src="../images/topbutton.png"/></a>
+				</div>
 			</div>
+			
 		</div>
 	</footer>
 	
@@ -206,6 +257,15 @@ function myFunction() {
   } else {
     x.style.display = "inline-block";
   }
+}
+
+function closeNav() {
+  if (window.innerWidth < 769){
+	document.getElementById("fullnav").style.display = "none";
+  }
+}
+function stopprop(event){
+	event.stopPropagation();
 }
 </script>
 

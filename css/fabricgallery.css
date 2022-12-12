@@ -1,9 +1,22 @@
 @charset "utf-8";
 @import url("fabricgallery.css");
 html {
+  scrollbar-color: #f5d553 #dddddd;
+  scrollbar-width:thin;
   height: 100%;
   font-size: 100%;
   overflow:hidden;
+}
+::-webkit-scrollbar{
+  background-color: #dddddd;
+	width:8px;
+	height:8px;
+}
+::-webkit-scrollbar-corner{
+	color:#dddddd;
+}
+::-webkit-scrollbar-thumb {
+  background: #f5d553;
 }
 /*Navigation Bar*/
 header{
@@ -22,10 +35,6 @@ header{
     align-items: center;
 	/*border:1px solid red;*/
 	margin: 0 auto;
-}
-header ul{
-	color:blue;
-	text-color: blue;
 }
 h1{
 	font-family: Play;
@@ -212,71 +221,83 @@ body {
 /*Footer*/
 footer{
 	background-color: #335540;
-	padding:20px;
+	padding:20px 0px 20px 0px;
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+	/*border:1px solid pink;*/
 }
 #footerwrap{
-	width:1050px;
-	height:80%;
+	width:95%;
+	max-width:1200px;
+	height:90%;
+	padding:0px 0px 0px 0px;
 	/*border: 1px solid orange;*/
 	margin:0 auto;
-	display:flex;
-	
+	display:inline-block;	
 }
+
 #footersection{
-	float:left;
-	width:60%;
-	height:70%;
+	display:block;
+	float:none;
+	width:100%;
+	/*background-color:#203528;*/
 	/*border: 1px solid aqua;*/
-	margin:auto;
-		
-	
-	text-align:left;
+	border-bottom:1px solid white;
+	margin:0px 0px 10px 0px;
+	text-align:center;
+}
+#footersection a{
+	margin:0px 8px 0px 8px;
+	color:white;
+	text-decoration:none;
+	font-family:Roboto;
+	transition:0.2s;
 }
 #footersocial{
-	float:right;
-	width:30%;
-	height:70%;
+	display:block;
+	justify-content: center;
+	align-items: center;
+	float:none;
+	width:100%;
+	height:60%;
 	/*border: 1px solid aqua;*/
 	margin:auto;
 }
 #footerbutton{
-	margin:auto;
-	display:inline-block;
+	float:right;
+	margin:0 auto;
+	/*border:1px solid blue;*/
+	display:flex;
 }
-footer a {
-	color:white;
-	text-decoration:none;
-	font-family:Roboto;
-	font-size:12pt;
-	margin: 0px 0px 0px 10px;
-	transition:0.2s;
-}
-footer a:hover{
+
+#footersection a:hover{
 	color:#f5d553;
 	font-size:13pt;
 }
+
 .socials{
-	width:40px;
-	height:40px;
-	float:right;
-	margin: 0px 3px 0px 3px;
+	width:30px;
+	height:30px;
+	float:none;
+	margin: 0px 0px 0px 0px;
+	padding:0px;
 	transition:0.2s;
 }
 .socials:hover{
-	width:45px;
-	height:45px;
+	width:35px;
+	height:35px;
 }
 .topbutton{
-	width:60px;
+	display:flex;
+	width:40px;
 	transition:0.2s;
+	padding:0px;
 }
 .topbutton:hover{
-	width:65px;
+	width:40px;
 }
 
 /*LARGE TABLET*/
@@ -297,10 +318,6 @@ footer a:hover{
     align-items: center;
 	/*border:1px solid red;*/
 	margin: 0 auto;
-}
-header ul{
-	color:blue;
-	text-color: blue;
 }
 h1{
 	font-family: Play;
@@ -488,7 +505,7 @@ body {
 	header{
 	position:fixed;
 	width:100%;
-	height:50px;
+	height:75px;
 	margin:0 auto;
 	background-color:white;
 }
@@ -500,17 +517,27 @@ body {
     	flex-wrap: wrap;
     	justify-content: none;
     	align-items: none;
+		background-color:white;
 }
 	#infobar{
-		display:none;
+	display:flex;
 	}
+	
+	#infowrap{
+	width:80%;
+	margin:0 auto;
+	/*border:1px solid yellow;*/
+	text-align: center;
+	
+}
 	.logo{
 		height:100%;
 		display:block;
 		/*border:1px solid blue;*/
 		float:left;
-		margin:0px;
+		margin:0 auto;
 		padding:0px;
+		background-color:white;
 	}
 	#fullnav{
 		margin:0 auto;
@@ -531,8 +558,8 @@ body {
 	.burger{
 		display:block;
 		height:100%;
-		
 		background:url(../images/burger1.png) no-repeat 98% center;
+		background-color:white;
 		/*border:1px solid blue;*/
 		cursor: pointer;
 	}
@@ -600,8 +627,8 @@ body {
 }
 #gallery3-3{
 	width:450px;
-	height:450px;
-	/*border: 1px dashed green;*/
+	height:350px;
+	/*border:1px solid red;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -651,8 +678,8 @@ body {
 	border:2px solid #1A2D21;
 }
 #MainImg3{	
-	width:100%;
-	height: 100%;
+	height:100%;
+	max-width:450px;
 	border:2px solid #1A2D21;
 }
 #thumbnails{
@@ -772,7 +799,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color:#335540;
 	border:none;
 }
 #gallery2-3{
