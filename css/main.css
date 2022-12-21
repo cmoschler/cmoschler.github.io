@@ -726,6 +726,9 @@ img.hover-shadow {
 #decowrap2{
 	display:none;
 }
+#decowrap3{
+		display:none;
+	}
 #decotext{
 	/*border:1px solid aqua;*/
 	margin:0 auto;
@@ -2240,6 +2243,9 @@ footer{
 	text-align:center;
 	/*border:1px solid yellow;*/
 }
+#decowrap3{
+		display:none;
+	}
 #decotext{
 	/*border:1px solid aqua;*/
 	margin:0 auto;
@@ -3156,6 +3162,9 @@ img.hover-shadow {
     align-items: center;
 }
 #decowrap2{
+	display:none;
+}
+#decowrap3{
 	display:initial;
 	width:100%;
 	max-width:100%;
