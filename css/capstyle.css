@@ -115,7 +115,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/bg_pattern_test3.png');
+	background-image: url('../images/pattern1.png');
 }
 
 
@@ -141,7 +141,7 @@ body {
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-size: cover;
 	
 }
@@ -392,7 +392,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/bg_pattern_test3.png');
+	background-image: url('../images/pattern1.png');
 }
 /*SECTION CONTROLS*/
 #bigwrap{
@@ -415,7 +415,7 @@ body {
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-size: cover;
 	
 }
@@ -574,7 +574,7 @@ hr{
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-size: cover;
 	
 }
@@ -829,7 +829,7 @@ footer a:hover{
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-size: cover;
 	
 }

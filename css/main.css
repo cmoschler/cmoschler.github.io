@@ -147,7 +147,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/bg_pattern_test3.png');
+	background-image: url('../images/pattern1.png');
 	/*border:1px solid red;*/
 }
 #bigwrap{ 
@@ -415,7 +415,7 @@ img.hover-shadow {
 	
 }
 #aboutphoto{
-	background-image:url("../images/aboutphoto0.png");
+	background-image:url("../images/about.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	display:inline-block;
@@ -446,7 +446,7 @@ img.hover-shadow {
 }
 /*PROCESS SECTION*/
 #process{
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
 	display: flex;
@@ -705,7 +705,7 @@ img.hover-shadow {
 
 /*DECORATIONS SECTION*/
 #decorations{
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
@@ -1047,7 +1047,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/bg_pattern_test3.png');
+	background-image: url('../images/pattern1.png');
 }
 #bigwrap{ 
 	margin: 0 auto;
@@ -1309,7 +1309,7 @@ img.hover-shadow {
 	
 }
 #aboutphoto{
-	background-image:url("../images/aboutphoto0.png");
+	background-image:url("../images/about.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	display:inline-block;
@@ -1922,7 +1922,7 @@ footer{
 	
 }
 #aboutphoto{
-	background-image:url("../images/aboutphoto0.png");
+	background-image:url("../images/about.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	width:450px;
@@ -2115,7 +2115,7 @@ footer{
 
 .capstyleinner1{
 	/*background-image:url("../images/capstylebanner1.png");*/
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -2130,7 +2130,7 @@ footer{
 	padding:20px 0px 20px 0px;
 }
 .capstyleinner2{
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -2224,8 +2224,7 @@ footer{
 	}
 	
 #decorations{
-	background-image:url("../images/bg_pattern_test5.png");
-	
+	background-image:url("../images/pattern2.png");
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
 	display: flex;
@@ -2856,7 +2855,7 @@ img.hover-shadow {
 	
 }
 #aboutphoto{
-	background-image:url("../images/aboutphoto0.png");
+	background-image:url("../images/about.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	width:305px;
@@ -3043,7 +3042,7 @@ img.hover-shadow {
 
 .capstyleinner1{
 	/*background-image:url("../images/capstylebanner1.png");*/
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -3058,7 +3057,7 @@ img.hover-shadow {
 	/*border:1px solid aqua;*/
 }
 .capstyleinner2{
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -3151,7 +3150,7 @@ img.hover-shadow {
 	}
 	
 #decorations{
-	background-image:url("../images/bg_pattern_test5.png");
+	background-image:url("../images/pattern2.png");
 	
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
