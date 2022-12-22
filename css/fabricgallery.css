@@ -139,6 +139,9 @@ body {
 	justify-content: center;
 	background-color:#335540;
 }
+#galleryinner1{
+	/*border:1px solid blue;*/
+}
 #gallery2{
 	width:95%;
 	max-width:1000px;
