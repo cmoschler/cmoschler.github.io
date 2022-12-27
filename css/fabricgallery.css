@@ -1044,7 +1044,36 @@ footer a:hover{
     	align-items: none;
 }
 	#infobar{
-		display:none;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		margin:0 auto;
+		color:white;
+	}
+	#infobar span{
+		color: white;
+		margin: 0px 10px 0px 10px;
+		/*border: 1px solid aqua;*/
+		display: inline block;
+}
+	#infowrap{
+	width:90%;
+	margin:0 auto;
+	/*border:1px solid yellow;*/
+	text-align: center;
+	font-size:10pt;
+	float:none;
+	color:white;
+	
+}
+	.logo{
+		height:100%;
+		display:block;
+		/*border:1px solid blue;*/
+		float:left;
+		margin:0px;
+		padding:0px;
+		background-color:white;
 	}
 	.logo{
 		height:100%;
