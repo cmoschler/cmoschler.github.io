@@ -115,7 +115,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/pattern1.png');
+	background-image: url('../images/pattern1.webp');
 }
 
 
@@ -141,7 +141,7 @@ body {
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-size: cover;
 	
 }
@@ -392,7 +392,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/pattern1.png');
+	background-image: url('../images/pattern1.webp');
 }
 /*SECTION CONTROLS*/
 #bigwrap{
@@ -415,7 +415,7 @@ body {
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-size: cover;
 	
 }
@@ -547,7 +547,7 @@ hr{
 	.burger{
 		display:block;
 		height:100%;
-		background:url(../images/burger1.png) no-repeat 98% center;
+		background:url(../images/burger1.webp) no-repeat 98% center;
 		background-color:white;
 		/*border:1px solid blue;*/
 		cursor: pointer;
@@ -574,7 +574,7 @@ hr{
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-size: cover;
 	
 }
@@ -801,7 +801,7 @@ footer a:hover{
 		display:block;
 		height:100%;
 		
-		background:url(../images/burger1.png) no-repeat 98% center;
+		background:url(../images/burger1.webp) no-repeat 98% center;
 		background-color:white;
 		/*border:1px solid blue;*/
 		cursor: pointer;
@@ -829,7 +829,7 @@ footer a:hover{
     justify-content: center;
     align-items: center;
 	background-color:#3e674d;
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-size: cover;
 	
 }

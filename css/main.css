@@ -147,7 +147,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/pattern1.png');
+	background-image: url('../images/pattern1.webp');
 	/*border:1px solid red;*/
 }
 #bigwrap{ 
@@ -336,7 +336,7 @@ img.hover-shadow {
 
 /*Landing Page*/
 #landingsection{
-	background-image:url("../images/landing6.png");
+	background-image:url("../images/landing6.webp");
 	/*background-color: blue;*/
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -415,7 +415,7 @@ img.hover-shadow {
 	
 }
 #aboutphoto{
-	background-image:url("../images/about.png");
+	background-image:url("../images/about.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	display:inline-block;
@@ -446,7 +446,7 @@ img.hover-shadow {
 }
 /*PROCESS SECTION*/
 #process{
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
 	display: flex;
@@ -601,7 +601,7 @@ img.hover-shadow {
 
 .capstyleinner1{
 	/*background-image:url("../images/capstylebanner1.png");*/
-	background-image:url("../images/capstylebanner1.png");
+	background-image:url("../images/capstylebanner1.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -615,7 +615,7 @@ img.hover-shadow {
 	margin: 0 auto;
 }
 .capstyleinner2{
-	background-image:url("../images/capstylebanner2.png");
+	background-image:url("../images/capstylebanner2.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -705,8 +705,7 @@ img.hover-shadow {
 
 /*DECORATIONS SECTION*/
 #decorations{
-	background-image:url("../images/pattern2.png");
-	
+	background-image:url("../images/pattern2.webp");
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
 	display: flex;
@@ -1047,7 +1046,7 @@ body {
 	overflow: scroll;
 	height:100%;
 	font-family:Roboto;
-	background-image: url('../images/pattern1.png');
+	background-image: url('../images/pattern1.webp');
 }
 #bigwrap{ 
 	margin: 0 auto;
@@ -1233,7 +1232,7 @@ img.hover-shadow {
 
 /*Landing Page*/
 #landingsection{
-	background-image:url("../images/landing6.png");
+	background-image:url("../images/landing6.webp");
 	/*background-color: blue;*/
 	/*border:1px solid blue;*/
 	background-repeat:no-repeat;
@@ -1309,7 +1308,7 @@ img.hover-shadow {
 	
 }
 #aboutphoto{
-	background-image:url("../images/about.png");
+	background-image:url("../images/about.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	display:inline-block;
@@ -1828,7 +1827,7 @@ footer{
 	.burger{
 		display:block;
 		height:100%;
-		background:url(../images/burger1.png) no-repeat 98% center;
+		background:url(../images/burger1.webp) no-repeat 98% center;
 		background-color:white;
 		/*border:1px solid blue;*/
 		cursor: pointer;
@@ -1836,7 +1835,7 @@ footer{
 
 /*LANDING SECTION*/
 #landingsection{
-	background-image:url("../images/landing6-2.png");
+	background-image:url("../images/landing6-2.webp");
 	/*background-color: blue;*/
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -1922,7 +1921,7 @@ footer{
 	
 }
 #aboutphoto{
-	background-image:url("../images/about.png");
+	background-image:url("../images/about.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	width:450px;
@@ -2115,7 +2114,7 @@ footer{
 
 .capstyleinner1{
 	/*background-image:url("../images/capstylebanner1.png");*/
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -2130,7 +2129,7 @@ footer{
 	padding:20px 0px 20px 0px;
 }
 .capstyleinner2{
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -2224,7 +2223,7 @@ footer{
 	}
 	
 #decorations{
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
 	display: flex;
@@ -2489,7 +2488,7 @@ footer a:hover{
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background-image: url("burger1.png");
+  background-image: url("../images/burger1.webp");
   background-repeat:no-repeat;
   width:15px;
   height:15px;
@@ -2761,7 +2760,7 @@ img.hover-shadow {
 		display:block;
 		height:100%;
 		
-		background:url(../images/burger1.png) no-repeat 98% center;
+		background:url(../images/burger1.webp) no-repeat 98% center;
 		background-color:white;
 		/*border:1px solid blue;*/
 		cursor: pointer;
@@ -2769,7 +2768,7 @@ img.hover-shadow {
 
 /*LANDING SECTION*/
 #landingsection{
-	background-image:url("../images/landing6-3.png");
+	background-image:url("../images/landing6-3.webp");
 	/*background-color: blue;*/
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -2855,7 +2854,7 @@ img.hover-shadow {
 	
 }
 #aboutphoto{
-	background-image:url("../images/about.png");
+	background-image:url("../images/about.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	width:305px;
@@ -3042,7 +3041,7 @@ img.hover-shadow {
 
 .capstyleinner1{
 	/*background-image:url("../images/capstylebanner1.png");*/
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -3057,7 +3056,7 @@ img.hover-shadow {
 	/*border:1px solid aqua;*/
 }
 .capstyleinner2{
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-color: #3e674d;
@@ -3150,7 +3149,7 @@ img.hover-shadow {
 	}
 	
 #decorations{
-	background-image:url("../images/pattern2.png");
+	background-image:url("../images/pattern2.webp");
 	
 	background-color: #3e674d;
 	padding: 70px 0px 70px 0px;
@@ -3413,7 +3412,7 @@ footer{
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background-image: url("burger1.png");
+  background-image: url("../images/burger1.webp");
   background-repeat:no-repeat;
   width:15px;
   height:15px;
