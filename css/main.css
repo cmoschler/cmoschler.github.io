@@ -81,6 +81,10 @@ h7{
 	font-weight:700;
 	color:black;
 }
+.alert{
+	color:#f5d553;
+	font-family:Roboto;
+}
 
 #infobar{
 	width:100%;
