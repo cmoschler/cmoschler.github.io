@@ -41,7 +41,8 @@ h1{
 	font-size:30pt;
 	font-weight:700;
 	color: #335540;
-	border-bottom: 10px double;
+	border-top: 10px double;
+	
 }
 h2{
 	font-family: Play;
@@ -438,7 +439,7 @@ h1{
 	font-size:30pt;
 	font-weight:700;
 	color: #335540;
-	border-bottom: 10px double;
+	border-top: 10px double;
 }
 h2{
 	font-family: Play;
